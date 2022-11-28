@@ -1,5 +1,10 @@
 package com.mundial.demo.repository;
 
-public interface ResultadoRepository {
+import org.springframework.data.jpa.repository.JpaRepository;
 
+import com.mundial.demo.entities.Resultado;
+
+
+public interface ResultadoRepository /* extends JpaRepository <Resultado , Integer> */ {
+    
 }
