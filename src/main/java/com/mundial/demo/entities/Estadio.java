@@ -15,7 +15,7 @@ public class Estadio {
 	
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
-	private Integer serial;
+	private Integer id;
 	private String nombre;
 	private Integer capacidad;
 	

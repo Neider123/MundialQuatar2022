@@ -23,9 +23,9 @@ public class ResultadoController {
 	/*
 	@Autowired
 	ResultadoRepository resultadoRepository;
-	*/
 	
-	/*
+	
+	
 	@GetMapping
 	public List<Resultado> getSeleccionAll () {
 		return resultadoRepository.findAll();
